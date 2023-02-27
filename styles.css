@@ -1,0 +1,166 @@
+/* Base Styles */
+body {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3 {
+	margin: 0;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#calendar {
+	max-width: 100%;
+	max-height: 100%;
+}
+#heading {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+#logo {
+	max-width: 100%;
+	padding-right: 20px;
+}
+#menu {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+#back-home {font-size: 18px;
+	font-weight: bold;
+	padding-left: 30px;
+
+}
+#task {
+	border-style: solid;
+	border-color: #e76f51;
+	margin: 20px;
+	padding: 20px;
+}
+#menu-heading {
+	border-style: solid;
+	border-color: #e76f51;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+#logo-mini {
+	max-width: 30px;
+	max-height: 30px;
+	padding-right: 20px;
+}
+a {
+	color: #e76f51;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #e76f51;
+	color: #fff;
+	padding: 20px;
+}
+header h1 {
+	color: #FFFFFF;
+	font-size: 32px;
+	margin: 0;
+
+}
+nav {
+	margin-top: 10px;
+}
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+nav li {
+	margin: 0 10px;
+}
+main {
+	padding: 20px;
+}
+section {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+section h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+section p {
+	margin-bottom: 10px;
+}
+.task-list {
+	margin-bottom: 20px;
+}
+.task-list h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.task-list ul {
+	padding-left: 20px;
+}
+footer {
+	background-color: #e76f51;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+@media (max-width: 767px) {
+	/* Styles for Mobile Devices */
+	header h1 {
+		font-size: 24px;
+	}
+	main {
+		padding: 10px;
+	}
+	section h2 {
+		font-size: 20px;
+	}
+	.task-list h3 {
+		font-size: 18px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	/* Styles for Tablet Devices */
+	header h1 {
+		font-size: 28px;
+	}
+	main {
+		padding: 20px;
+	}
+	section h2 {
+		font-size: 22px;
+	}
+	.task-list h3 {
+		font-size: 20px;
+	}
+}
+@media (min-width: 992px) {
+	/* Styles for Desktop Devices */
+	header nav {
+		margin: 0;
+	}
+	header h1 {
+		font-size: 36px;
+		margin-right: auto;
+	}
+	nav li {
+		margin: 0;
+	}
+	main {
+		display: flex;
+		flex-direction: row;
+	}
+	section {
+		flex: 1;
+		margin-right: 20px;
+	}
+}
